@@ -178,37 +178,6 @@ scale: 1.2;
   margin-top: -37px;
 }
 
-.data-view{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 70px;
-}
-
-.data-view li {
-  background-color: #0f0c1f9a;
-  color: white;
-  width: 40vw;
-  height: 20vh;
-  display: flex;
-  padding: 0px 30px;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
-  border-radius: 20px;
-  margin-top: -50px;
-}
-
-.data-view li article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-right: 40px;
-  flex-wrap: wrap;
-}
-
 .purchase  p {
   margin: 0;
   font-size: 13px;

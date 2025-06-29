@@ -1,6 +1,8 @@
+import styles from './DataView.module.css';
+
 function DataView(){
     return (
-        <div className="data-view">
+        <div className={styles.dataView}>
       <div className="preview">
         <ul id="preview-activity"></ul>
       </div>

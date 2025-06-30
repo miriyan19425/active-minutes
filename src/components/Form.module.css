@@ -1,0 +1,31 @@
+.activityForm {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #0f0c1f8d;
+  padding: 20px 0px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.activityForm input,
+.activityForm button {
+  width: 10rem;
+  height: 1.6rem;
+}
+
+.activityForm select {
+  width: 10rem;
+  height: 1.6rem;
+}

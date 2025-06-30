@@ -1,7 +1,9 @@
+import styles from './Form.module.css';
+
 function Form(){
 	return (
-		<div className="form-container">
-      <form className="activity-form">
+	<div className={styles.formContainer}>
+      <form className={styles.activityForm}>
         <label htmlFor="type">Activity Type:</label>
         <select id="type" name="type">
           <option value="" disabled selected>Chose Type</option>

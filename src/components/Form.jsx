@@ -2,6 +2,7 @@ import {useState} from 'react';
 import styles from './Form.module.css';
 
 function Form(){
+	const [type, setType] = useState();
 	return (
 	<div className={styles.formContainer}>
       <form className={styles.activityForm}>

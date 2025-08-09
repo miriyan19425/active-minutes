@@ -1,15 +1,15 @@
 function ActivityForm(){
     return (
         <div className="form-container">
-      <form className="activity-form">
-        <label for="type">Activity Type:</label>
-        <select id="type" name="type">
-          <option value="" disabled selected>Chose Type</option>
-          <option value="Running">Running</option>
-          <option value="Yoga">Yoga</option>
-          <option value="Cycling">Cycling</option>
-          <option value="Dancing">Dancing</option>
-        </select>
+            <form className="activity-form">
+                <label for="type">Activity Type:</label>
+                <select id="type" name="type">
+                    <option value="" disabled selected>Chose Type</option>
+                    <option value="Running">Running</option>
+                    <option value="Yoga">Yoga</option>
+                    <option value="Cycling">Cycling</option>
+                    <option value="Dancing">Dancing</option>
+                </select>
         <label for="intensity">Intensity:</label>
         <select id="intensity" name="intensity">
           <option value="" disabled selected>Chose Intensity</option>

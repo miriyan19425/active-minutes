@@ -1,8 +1,11 @@
+import {useState} from 'react';
 import ActivityForm from "./components/ActivityForm";
 import ActivityPreview from "./components/ActivityPreview";
 import ActivitiesTable from "./components/ActivitiesTable";
 
 function App() {
+   const [activityData, setActivityData] = useState({type: '', intensity: '', calories:'', duration: '', date: ''});
+   
    return (
         <div className="body">
   <h1>Active Minutes</h1>

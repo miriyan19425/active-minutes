@@ -1,5 +1,7 @@
 import {useState} from 'react';
 
+const activities = ["Choose Type", "Running", "Yoga", "Cycling", "Dancing"];
+
 function ActivityForm(){
     return (
         <div className="form-container">

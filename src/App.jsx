@@ -4,7 +4,7 @@ import ActivityPreview from "./components/ActivityPreview";
 import ActivitiesTable from "./components/ActivitiesTable";
 
 function App() {
-   const [activityData, setActivityData] = useState({type: '', intensity: '', calories:'', duration: '', date: ''});
+   const [activityData, setActivityData] = useState({type: 'Choose Type', intensity: 'Choose Intensity', calories: 0, duration: 0, date: ''});
    
    return (
         <div className="body">

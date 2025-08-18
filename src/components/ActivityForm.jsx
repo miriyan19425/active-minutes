@@ -3,7 +3,7 @@ import {useState} from 'react';
 const activities = ["Choose Type", "Running", "Yoga", "Cycling", "Dancing"];
 const intensityLevels = ["Choose Intensity", "Low", "Medium", "High", "Extreme"];
 
-function ActivityForm(){
+function ActivityForm({defineActivity}){
     return (
         <div className="form-container">
             <form className="activity-form">

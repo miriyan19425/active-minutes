@@ -4,6 +4,8 @@ const activities = ["Choose Type", "Running", "Yoga", "Cycling", "Dancing"];
 const intensityLevels = ["Choose Intensity", "Low", "Medium", "High", "Extreme"];
 
 function ActivityForm({defineActivity}){
+    const [type, setType] = useState('Choose Type');
+    
     return (
         <div className="form-container">
             <form className="activity-form">

@@ -5,6 +5,7 @@ function ActivityPreview({activityInput}){
             {
             (activityInput.type === 'Choose Type' &&
              activityInput.intensity === 'Choose Intensity' &&
+             activityInput.calories === 0
             ) ||
             <li>
             

@@ -5,6 +5,7 @@ const intensityLevels = ["Choose Intensity", "Low", "Medium", "High", "Extreme"]
 
 function ActivityForm({defineActivity}){
     const [type, setType] = useState('Choose Type');
+    const [intensity, setIntensity] = useState('Choose Intensity');
     
     return (
         <div className="form-container">

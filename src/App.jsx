@@ -13,7 +13,7 @@ function App() {
   <h1>Active Minutes</h1>
   <h4>Track Your Daily Activity</h4>
   <main id="content">
-      <ActivityForm />
+      <ActivityForm defineActivity={getActivityData} />
     <div className="data-view">
       <ActivityPreview />
       <ActivitiesTable />

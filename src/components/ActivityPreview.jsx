@@ -4,7 +4,8 @@ function ActivityPreview({activityInput}){
       {(  
         activityInput.type === 'Choose Type' && 
         activityInput.intensity === 'Choose Intensity' &&
-        activityInput.calories === 0
+        activityInput.calories === 0 &&
+        activityInput.duration === 0
       
       ) ||
         <ul id="preview-activity">

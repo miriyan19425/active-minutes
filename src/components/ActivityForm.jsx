@@ -8,6 +8,7 @@ function ActivityForm({defineActivity}){
     const [intensity, setIntensity] = useState('Choose Intensity');
     const [calories, setCalories] = useState(0);
     const [duration, setDuration] = useState(0);
+    const [date, setDate] = useState('');
     
     return (
         <div className="form-container">

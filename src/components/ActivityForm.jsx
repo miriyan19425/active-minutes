@@ -9,6 +9,11 @@ function ActivityForm({defineActivity}){
     const [calories, setCalories] = useState(0);
     const [duration, setDuration] = useState(0);
     const [date, setDate] = useState('');
+
+    function handleSubmit(e){
+        e.preventDefault();
+
+     }
     
     return (
         <div className="form-container">

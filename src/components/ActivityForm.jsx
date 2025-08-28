@@ -13,6 +13,8 @@ function ActivityForm({defineActivity}){
     function handleSubmit(e){
         e.preventDefault();
 
+        if (type === 'Choose Type' || intensity === 'Choose Intensity' || !calories || !duration || !date) return;
+
      }
     
     return (

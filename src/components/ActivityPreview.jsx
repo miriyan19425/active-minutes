@@ -14,6 +14,7 @@ function ActivityPreview({activityInput}){
               <p>Type: {activityInput.type}</p>
               <p>Intensity: {activityInput.intensity}</p>
               <p>Calories: {activityInput.calories}</p>
+              <p>Duration: {activityInput.duration} min</p>
               
             </article>
             <div className="btn-container">

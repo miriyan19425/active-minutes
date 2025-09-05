@@ -15,7 +15,7 @@ function ActivityPreview({activityInput}){
               <p>Intensity: {activityInput.intensity}</p>
               <p>Calories: {activityInput.calories}</p>
               <p>Duration: {activityInput.duration} min</p>
-              
+              <p>Date: {activityInput.date}</p>
             </article>
             <div className="btn-container">
               <button className="edit-btn">Edit</button>

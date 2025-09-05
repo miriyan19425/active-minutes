@@ -16,7 +16,8 @@ function ActivityForm({defineActivity}){
         if (type === 'Choose Type' || intensity === 'Choose Intensity' || !calories || !duration || !date) return;
 
         const data = {type, intensity, calories, duration, date};
-
+        
+        defineActivity(data);
      }
     
     return (

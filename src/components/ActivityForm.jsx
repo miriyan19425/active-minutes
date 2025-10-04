@@ -19,6 +19,7 @@ function ActivityForm({defineActivity}){
         
         defineActivity(data);
         setType("Choose Type");
+        setIntensity("Choose Intensity");
      }
     
     return (

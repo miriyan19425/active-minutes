@@ -25,13 +25,9 @@ function ActivityForm({defineActivity}){
     return (
         <div className="form-container">
             <form className="activity-form">
-                <label for="type">Activity Type:</label>
-                <select id="type" name="type">
-                    <option value="" disabled selected>Chose Type</option>
-                    <option value="Running">Running</option>
-                    <option value="Yoga">Yoga</option>
-                    <option value="Cycling">Cycling</option>
-                    <option value="Dancing">Dancing</option>
+                <label htmlFor="type">Activity Type:</label>
+                <select id="type" value={type} onChange={(e) => setType(e.target.value)}>
+                    {activities.map( (act, ind) => <option key={ind} value={act} disabled={ind === 0}>{act}</option> )}
                 </select>
         <label for="intensity">Intensity:</label>
         <select id="intensity" name="intensity">

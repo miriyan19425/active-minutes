@@ -9,18 +9,17 @@ function App() {
    function getActivityData(d) { setActivityData(d); }
    
    return (
-        <div className="body">
-  <h1>Active Minutes</h1>
-  <h4>Track Your Daily Activity</h4>
-  <main id="content">
-      <ActivityForm defineActivity={getActivityData} />
-    <div className="data-view">
-      <ActivityPreview />
-      <ActivitiesTable />
-    </div>
-  </main>
-   
-</div>
+      <div className="body">
+         <h1>Active Minutes</h1>
+         <h4>Track Your Daily Activity</h4>
+         <main id="content">
+            <ActivityForm defineActivity={getActivityData} />
+            <div className="data-view">
+               <ActivityPreview />
+               <ActivitiesTable />
+            </div>
+         </main>
+      </div>
    );
 }
 

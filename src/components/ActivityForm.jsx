@@ -29,14 +29,11 @@ function ActivityForm({defineActivity}){
                 <select id="type" value={type} onChange={(e) => setType(e.target.value)}>
                     {activities.map( (act, ind) => <option key={ind} value={act} disabled={ind === 0}>{act}</option> )}
                 </select>
-        <label for="intensity">Intensity:</label>
-        <select id="intensity" name="intensity">
-          <option value="" disabled selected>Chose Intensity</option>
-          <option value="Low">Low</option>
-          <option value="Medium">Medium</option>
-          <option value="High">High</option>
-          <option value="Extreme">Extreme</option>
-        </select>
+                
+                <label htmlFor="intensity">Intensity:</label>
+                <select id="intensity" value={intensity} onChange={(e) => setIntensity(e.target.value)}>
+                    {intensityLevels.map( (int, ind) => <option key={ind} value={int} disabled={ind === 0}>{int}</option> )}
+                </select>
         <label for="calories">Calories Burned:</label>
         <input type="number" id="calories" name="calories" placeholder="Estimate calories" />
         <label for="duration">Duration in Minutes:</label>

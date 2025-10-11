@@ -34,8 +34,8 @@ function ActivityForm({defineActivity}){
                 <select id="intensity" value={intensity} onChange={(e) => setIntensity(e.target.value)}>
                     {intensityLevels.map( (int, ind) => <option key={ind} value={int} disabled={ind === 0}>{int}</option> )}
                 </select>
-        <label for="calories">Calories Burned:</label>
-        <input type="number" id="calories" name="calories" placeholder="Estimate calories" />
+                <label htmlFor="calories">Calories Burned:</label>
+                <input id="calories" type="number" placeholder="Estimate calories" value={calories} onChange={(e) => setCalories(Number(e.target.value))} />
         <label for="duration">Duration in Minutes:</label>
         <input type="number" id="duration" placeholder="Duration" name="duration" />
         <label for="date">Date:</label>

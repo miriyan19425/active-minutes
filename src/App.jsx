@@ -15,7 +15,7 @@ function App() {
          <main id="content">
             <ActivityForm defineActivity={getActivityData} />
             <div className="data-view">
-               <ActivityPreview />
+               <ActivityPreview activityInput={activityData}/>
                <ActivitiesTable />
             </div>
          </main>

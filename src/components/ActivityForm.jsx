@@ -10,6 +10,8 @@ function ActivityForm({defineActivity}){
     const [duration, setDuration] = useState(0);
     const [date, setDate] = useState('');
 
+    useEffect();
+
     function handleSubmit(e){
         e.preventDefault();
 

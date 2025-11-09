@@ -5,6 +5,7 @@ import ActivitiesTable from "./components/ActivitiesTable";
 
 function App() {
    const [activityData, setActivityData] = useState({type: 'Choose Type', intensity: 'Choose Intensity', calories: 0, duration: 0, date: ''});
+   const [dataToEdit, setDataToEdit] = useState({});
 
    function getActivityData(d) { setActivityData(d); }
    

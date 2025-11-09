@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react';
 const activities = ["Choose Type", "Running", "Yoga", "Cycling", "Dancing"];
 const intensityLevels = ["Choose Intensity", "Low", "Medium", "High", "Extreme"];
 
-function ActivityForm({defineActivity}){
+function ActivityForm({defineActivity, activityEdit}){
     const [type, setType] = useState('Choose Type');
     const [intensity, setIntensity] = useState('Choose Intensity');
     const [calories, setCalories] = useState(0);

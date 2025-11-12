@@ -18,7 +18,7 @@ function ActivityPreview({activityInput}){
               <p>Date: {activityInput.date}</p>
             </article>
             <div className="btn-container">
-              <button className="edit-btn">Edit</button>
+              <button className="edit-btn" onClick={onEdit} >Edit</button>
               <button className="next-btn">Next</button>
             </div>
           </li>

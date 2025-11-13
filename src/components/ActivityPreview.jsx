@@ -1,4 +1,4 @@
-function ActivityPreview({activityInput}){
+function ActivityPreview({activityInput, onEdit}){
   return (
     <div className="preview">
       {(  
